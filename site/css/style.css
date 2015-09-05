@@ -270,7 +270,7 @@ p a:hover {
 }
 .body .content-home div {
 	background-color:#fff;
-	margin:-9px 5px 0 18px;
+	margin:-9px 12px 0 10px;
 	overflow:hidden;
 	padding:26px 30px 21px;
 }
@@ -293,7 +293,7 @@ p a:hover {
 	font-size:15px;
 	line-height:30px;
 	margin:2px 0 0 20px;
-	width:385px;
+	width:380px;
 }
 .body .content-home div ul {
 	list-style:none;
@@ -1131,12 +1131,6 @@ p a:hover {
 .body .content-reg div div.sidebar p a:hover {
 	color:#ce4718!important;
 }
-.body .content-home div:first-child {
-	margin-top:0;
-	margin-left:10;
-	margin-right:10;
-	font-size:18px;
-}
 .body .content-about div div.sidebar div:first-child h3 {
 	margin-top:0;
 }
@@ -1164,9 +1158,9 @@ p a:hover {
 	margin-left:auto; 
     margin-right:auto;
 }
-.body .content-home div.featured img, .body .content-about div.featured img {
+.body .content-home div.featured img  {
 	display:block;
-	margin:0 0 0 13px;
+	margin:0 0 0 0px;
 }
 .body .content-home div.featured iframe, .body .content-about div.featured iframe {
 	display:block;
@@ -1405,4 +1399,59 @@ p a:hover {
 }
 .footer ul li a:hover {
 	text-decoration:underline;
+}
+
+/*------------------------- Slideshow ------------------------*/
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  border-radius: 4px;
+  padding: 0;
+}
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 490px;
+  list-style: none;
+}
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 825px;
+  height: 490px;
+  background: #ccc;
+  text-align: center;
+  line-height: 490px;
+}
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 2%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
 }
