@@ -732,6 +732,7 @@ p a:hover {
 	margin:0;
 	padding:0 31px 0 0;
 	width:473px;
+	letter-spacing:.02em;
 }
 .body .content-reglol div div h3 {
 	color:#5C3820;
@@ -785,9 +786,8 @@ p a:hover {
 	margin:0 0 17px;
 	padding:0 0 0 23px;
 }
-.body .content-reglol div div ul li p {
+.body .content-reglol div div p {
 	color:#5C3820;
-	font-size:13px;
 	letter-spacing:.02em;
 	line-height:24px;
 	margin:0 0 26px;
@@ -845,7 +845,7 @@ p a:hover {
 	margin:0 0 0 5px;
 	width:21px;
 }
-.body .content-reglol-single div div h3 {
+.body .content-reglol div div h3 {
 	color:#5C3820;
 	font-size:27px;
 	font-weight:400;
@@ -854,11 +854,11 @@ p a:hover {
 	margin:0 0 7px;
 	text-transform:uppercase;
 }
-.body .content-reglol-single div div div.paging {
+.body .content-reglol div div div.paging {
 	margin:0 0 15px;
 	overflow:hidden;
 }
-.body .content-reglol-single div div div.paging a.next {
+.body .content-reglol div div div.paging a.next {
 	background:url(../images/icons.png) no-repeat 134px -176px;
 	color:#5D3820;
 	float:right;
@@ -871,7 +871,7 @@ p a:hover {
 	text-transform:uppercase;
 	margin: 0 10px;
 }
-.body .content-reglol-single div div div.paging a.prev {
+.body .content-reglol div div div.paging a.prev {
 	background:url(../images/icons.png) no-repeat 0 -206px;
 	color:#5D3820;
 	display:inline-block;
@@ -884,12 +884,12 @@ p a:hover {
 	text-decoration:none;
 	text-transform:uppercase;
 }
-.body .content-reglol-single div div ul {
+.body .content-reglol div div ul {
 	list-style:none outside none;
 	margin:0;
 	padding:0;
 }
-.body .content-reglol-single div div ul li h4 {
+.body .content-reglol div div ul li h4 {
 	color:#2d8caa;
 	font-size:18px;
 	font-weight:400;
@@ -897,19 +897,19 @@ p a:hover {
 	text-decoration:none;
 	text-transform:none;
 }
-.body .content-reglol-single div div ul li div span:first-child {
+.body .content-reglol div div ul li div span:first-child {
 	background:url(../images/icons.png) no-repeat 0 -130px;
 	float:left;
 	padding:0 0 0 22px;
 }
-.body .content-reglol-single div div ul li div span a {
+.body .content-reglol div div ul li div span a {
 	color:#5C3820;
 	text-decoration:none;
 }
-.body .content-reglol-single div div ul li div span a:hover {
+.body .content-reglol div div ul li div span a:hover {
 	text-decoration:underline;
 }
-.body .content-reglol-single div div ul li div span {
+.body .content-reglol div div ul li div span {
 	background:url(../images/icons.png) no-repeat 0 -156px;
 	color:#5C3820;
 	display:inline-block;
@@ -921,11 +921,11 @@ p a:hover {
 	margin:0 0 17px;
 	padding:0 0 0 23px;
 }
-.body .content-reglol-single div div ul li div.section {
+.body .content-reglol div div ul li div.section {
 	border-top:1px solid #E2D4B1;
 	padding:21px 0 154px;
 }
-.body .content-reglol-single div div ul li div.section div span {
+.body .content-reglol div div ul li div.section div span {
 	background:none;
 	color:#5c3820;
 	display:block;
@@ -937,18 +937,18 @@ p a:hover {
 	margin:0 0 5px;
 	padding:0;
 }
-.body .content-reglol-single div div ul li div.section div div {
+.body .content-reglol div div ul li div.section div div {
 	float:left;
 	margin:0 20px 0 0;
 	padding:0;
 	width:60px;
 }
-.body .content-reglol-single div div ul li div.section div div a {
+.body .content-reglol div div ul li div.section div div a {
 	display:block;
 	float:none;
 	margin:0 0 3px;
 }
-.body .content-reglol-single div div ul li div.section div h4 {
+.body .content-reglol div div ul li div.section div h4 {
 	color:#2d8caa;
 	display:block;
 	float:none;
@@ -959,7 +959,7 @@ p a:hover {
 	padding:0 0 0 1px;
 	text-align:left;
 }
-.body .content-reglol-single div div ul li div.section div div span {
+.body .content-reglol div div ul li div.section div div span {
 	color:#5C3820;
 	display:block;
 	font-family:Arial, Helvetica, sans-serif;
@@ -968,7 +968,7 @@ p a:hover {
 	line-height:20px;
 	text-align:center;
 }
-.body .content-reglol-single div div ul li div.section div a {
+.body .content-reglol div div ul li div.section div a {
 	color:#ce4718;
 	float:right;
 	font-family:Arial, Helvetica, sans-serif;
@@ -978,20 +978,20 @@ p a:hover {
 	margin:0 0 28px;
 	text-decoration:none;
 }
-.body .content-reglol-single div div ul li div.section div p a {
+.body .content-reglol div div ul li div.section div p a {
 	float:none;
 	margin:0;
 }
-.body .content-reglol-single div div ul li div.section div form {
+.body .content-reglol div div ul li div.section div form {
 	border-top:1px solid #E2D4B1;
 	clear:both;
 	margin:0 0 46px;
 	padding:23px 0 0;
 }
-.body .content-reglol-single div div ul li div.section div form h4 {
+.body .content-reglol div div ul li div.section div form h4 {
 	margin:0 0 12px;
 }
-.body .content-reglol-single div div ul li div.section div form textarea {
+.body .content-reglol div div ul li div.section div form textarea {
 	background-color:#eee;
 	border:1px solid #b9b9b9;
 	color:#939393;
@@ -1043,7 +1043,7 @@ p a:hover {
 .body .content-reglol div div.sidebar p a:hover {
 	color:#ce4718!important;
 }
-.body .content-reglol-single div div.sidebar div form input {
+.body .content-reglol div div.sidebar div form input {
 	background:url(../images/bg-search.png) no-repeat;
 	border:0;
 	float:left;
@@ -1145,7 +1145,7 @@ p a:hover {
 	color:#ce4718;
 	text-decoration:none;
 }
-.body .content-home div p a:hover, .body .content-home div ul li a:hover, .body .content-about div div p a:hover, .body .content-about div div.sidebar div.section ul li a:hover, .body .content-about div div.sidebar div.section ul li span a:hover, .body .content-schedule div ul li span a:hover, .body .content-schedule div.figure div p a:hover, .body .content-reglol div div ul li p a:hover, .body .content-reglol div div ul li a:hover, .body .content-reglol-single div div div.paging a:hover, .body .content-reglol-single div div ul li h4 a:hover, .body .content-reglol-single div div ul li p a:hover, .body .content-reglol-single div div ul li div.section div a:hover, .body .content-reg div div p a:hover {
+.body .content-home div p a:hover, .body .content-home div ul li a:hover, .body .content-about div div p a:hover, .body .content-about div div.sidebar div.section ul li a:hover, .body .content-about div div.sidebar div.section ul li span a:hover, .body .content-schedule div ul li span a:hover, .body .content-schedule div.figure div p a:hover, .body .content-reglol div div ul li p a:hover, .body .content-reglol div div ul li a:hover, .body .content-reglol div div div.paging a:hover, .body .content-reglol div div ul li h4 a:hover, .body .content-reglol div div ul li p a:hover, .body .content-reglol div div ul li div.section div a:hover, .body .content-reg div div p a:hover {
 	text-decoration:underline;
 }
 .body .content-home div.featured, .body .content-about div.featured {
@@ -1165,78 +1165,70 @@ p a:hover {
 	margin-left:auto; 
     margin-right:auto;
 }
-.body .content-home div.featured img  {
-	display:block;
-	margin:0 0 0 0px;
-}
-.body .content-home div.featured iframe, .body .content-about div.featured iframe {
-	display:block;
-	margin:0 0 0 13px;
-}
-.body .content-home div ul li:first-child, .body .content-about, .body .content-about div div.sidebar div ul li:first-child, .body .content-about div div.sidebar div.section ul li:first-child, .body .content-reglol div div.sidebar div.reglol-categories ul li:first-child, .body .content-reglol-single div div.sidebar div.reglol-categories ul li:first-child {
+.body .content-home div ul li:first-child, .body .content-about, .body .content-about div div.sidebar div ul li:first-child, .body .content-about div div.sidebar div.section ul li:first-child, .body .content-reglol div div.sidebar div.reglol-categories ul li:first-child, .body .content-reglol div div.sidebar div.reglol-categories ul li:first-child {
 	margin:0;
 }
 .body .content-about div div.sidebar div:first-child a.selected, .body .content-schedule div.navigation ul li a:hover, .body .content-schedule div.navigation ul li.selected a {
 	color:#ce4718;
 }
-.body .content-about div div.sidebar div ul li a, .body .content-reglol div div.sidebar div ul li a, .body .content-reglol-single div div.sidebar div ul li a {
+.body .content-about div div.sidebar div ul li a, .body .content-reglol div div.sidebar div ul li a, .body .content-reglol div div.sidebar div ul li a {
 	margin:0 0 -1px;
 }
-.body .content-about div div.sidebar div ul li a img:hover, .body .content-schedule div ul li a img:hover, .body .content-reglol div div ul li a:first-child img:hover, .body .content-reglol div div.sidebar div ul li a img:hover, .body .content-reglol-single div div ul li a img:hover, .body .content-reglol-single div div.sidebar div ul li a img:hover {
+.body .content-about div div.sidebar div ul li a img:hover, .body .content-schedule div ul li a img:hover, .body .content-reglol div div ul li a:first-child img:hover, .body .content-reglol div div.sidebar div ul li a img:hover, .body .content-reglol div div ul li a img:hover, .body .content-reglol div div.sidebar div ul li a img:hover {
 	filter:alpha(opacity=80);/* Needed for IE8 and old versions */
 	opacity:0.8;
 }
-.body .content-about div div.sidebar div.section ul, .body .content-reglol div div.sidebar div.section ul, .body .content-reglol-single div div.sidebar div.section ul {
+.body .content-about div div.sidebar div.section ul, .body .content-reglol div div.sidebar div.section ul, .body .content-reglol div div.sidebar div.section ul {
 	margin:0;
 	padding:0;
 }
-.body .content-about div div.sidebar div.section ul li span, .body .content-reglol div div.sidebar div.section ul li span, .body .content-reglol-single div div.sidebar div.section ul li span {
+.body .content-about div div.sidebar div.section ul li span, .body .content-reglol div div.sidebar div.section ul li span, .body .content-reglol div div.sidebar div.section ul li span {
 	display:inline-block;
 	font-size:10px;
 }
-.body .content-reglol div, .body .content-reglol-single div {
+.body .content-reglol div, .body .content-reglol div {
 	background:url(../images/bg-2-column.png) repeat-y scroll 0 0 transparent;
 	margin:0 5px 0 18px;
 	overflow:hidden;
 	padding:26px 0 0 30px;
 }
-.body .content-reglol div div ul li:first-child, .body .content-reglol div div.sidebar div.section ul li:first-child, .body .content-reglol-single div div.sidebar div.section ul li:first-child {
+.body .content-reglol div div ul li:first-child, .body .content-reglol div div.sidebar div.section ul li:first-child, .body .content-reglol div div.sidebar div.section ul li:first-child {
 	padding-top:0;
 }
-.body .content-reglol div div ul li p a, .body .content-reglol-single div div ul li p a {
+.body .content-reglol div div ul li p a, .body .content-reglol div div ul li p a {
 	color:#CE4718;
 	margin:0;
 	text-decoration:none;
 	text-transform:none;
 }
-.body .content-reglol div div.sidebar, .body .content-reglol-single div div.sidebar {
+.body .content-reglol div div.sidebar, .body .content-reglol div div.sidebar {
 	background:none repeat scroll 0 0 transparent;
 	float:left;
 	padding:0;
 	width:281px;
 }
-.body .content-reglol div div.sidebar div:first-child, .body .content-reglol-single div div.sidebar div:first-child {
+.body .content-reglol div div.sidebar div:first-child, .body .content-reglol div div.sidebar div:first-child {
 	border:0;
 	padding-top:0;
 }
-.body .content-reglol div div.sidebar div, .body .content-reglol-single div div.sidebar div {
+.body .content-reglol div div.sidebar div, .body .content-reglol div div.sidebar div {
 	background:none repeat scroll 0 0 transparent;
 	border-top:1px solid #E2D4B1;
 	padding:11px 20px 0;
 	width:241px;
 }
-.body .content-reglol div div.sidebar div h3, .body .content-reglol-single div div.sidebar div h3 {
+.body .content-reglol div div.sidebar div h3, .body .content-reglol div div.sidebar div h3 {
 	color:#2d8caa;
 	font-size:21px;
 	font-weight:400;
 	margin:0;
 	text-transform:none;
 }
-.body .content-reglol div div.sidebar div form, .body .content-reglol-single div div.sidebar div form {
+.body .content-reglol div div.sidebar div form, .body .content-reglol div div.sidebar div form {
 	margin:0 0 17px;
 	overflow:hidden;
 }
-.body .content-reglol div div.sidebar div form input:first-child, .body .content-reglol-single div div.sidebar div form input:first-child {
+.body .content-reglol div div.sidebar div form input:first-child, .body .content-reglol div div.sidebar div form input:first-child {
 	background:none #fff;
 	border-color:#fef7e8;
 	border-style:solid solid solid none;
@@ -1249,17 +1241,17 @@ p a:hover {
 	padding:5px 5px 4px;
 	width:187px;
 }
-.body .content-reglol div div.sidebar div.reglol-categories ul, .body .content-reglol-single div div.sidebar div.reglol-categories ul {
+.body .content-reglol div div.sidebar div.reglol-categories ul, .body .content-reglol div div.sidebar div.reglol-categories ul {
 	margin:9px 0 21px;
 	padding:0;
 }
-.body .content-reglol div div.sidebar div.reglol-categories ul li, .body .content-reglol-single div div.sidebar div.reglol-categories ul li {
+.body .content-reglol div div.sidebar div.reglol-categories ul li, .body .content-reglol div div.sidebar div.reglol-categories ul li {
 	border:0;
 	margin:12px 0 0;
 	padding:0;
 	width:241px;
 }
-.body .content-reglol div div.sidebar div.reglol-categories ul li a, .body .content-reglol-single div div.sidebar div.reglol-categories ul li a {
+.body .content-reglol div div.sidebar div.reglol-categories ul li a, .body .content-reglol div div.sidebar div.reglol-categories ul li a {
 	color:#5c3820;
 	float:none;
 	font-family:Arial, Helvetica, sans-serif;
@@ -1271,31 +1263,31 @@ p a:hover {
 	text-align:left;
 	text-transform:none;
 }
-.body .content-reglol div div.sidebar div.reglol-categories ul li a:hover, .body .content-reglol-single div div.sidebar div.reglol-categories ul li a:hover {
+.body .content-reglol div div.sidebar div.reglol-categories ul li a:hover, .body .content-reglol div div.sidebar div.reglol-categories ul li a:hover {
 	color:#ce4718;
 	text-decoration:none!important;
 }
-.body .content-reglol div div.sidebar div ul, .body .content-reglol-single div div.sidebar div ul {
+.body .content-reglol div div.sidebar div ul, .body .content-reglol div div.sidebar div ul {
 	list-style:none outside none;
 	margin:-7px 0 0 -8px;
 	overflow:hidden;
 	padding:3px 0 5px;
 }
-.body .content-reglol div div.sidebar div ul li, .body .content-reglol-single div div.sidebar div ul li {
+.body .content-reglol div div.sidebar div ul li, .body .content-reglol div div.sidebar div ul li {
 	border:0;
 	float:left;
 	padding:10px;
 	width:63px;
 }
-.body .content-reglol div div.sidebar div.section ul li, .body .content-reglol-single div div.sidebar div.section ul li {
+.body .content-reglol div div.sidebar div.section ul li, .body .content-reglol div div.sidebar div.section ul li {
 	padding:6px 0 0;
 	width:241px;
 }
-.body .content-reglol div div.sidebar div.section ul li a:first-child, .body .content-reglol-single div div.sidebar div.section ul li a:first-child {
+.body .content-reglol div div.sidebar div.section ul li a:first-child, .body .content-reglol div div.sidebar div.section ul li a:first-child {
 	float:left;
 	margin:12px 20px 0 0;
 }
-.body .content-reglol div div.sidebar div.section ul li a, .body .content-reglol-single div div.sidebar div.section ul li a {
+.body .content-reglol div div.sidebar div.section ul li a, .body .content-reglol div div.sidebar div.section ul li a {
 	color:#5C3820;
 	float:left;
 	font-family:Arial, Helvetica, sans-serif;
@@ -1306,25 +1298,25 @@ p a:hover {
 	margin:6px 0 0;
 	text-transform:none;
 }
-.body .content-reglol div div.sidebar div.section ul li a:hover, .body .content-reglol-single div div.sidebar div.section ul li a:hover {
+.body .content-reglol div div.sidebar div.section ul li a:hover, .body .content-reglol div div.sidebar div.section ul li a:hover {
 	color:#ce4718;
 	text-decoration:none!important;
 }
-.body .content-reglol div div.sidebar div.section ul li span a, .body .content-reglol-single div div.sidebar div.section ul li span a {
+.body .content-reglol div div.sidebar div.section ul li span a, .body .content-reglol div div.sidebar div.section ul li span a {
 	display:inline;
 	float:none!important;
 	font-size:10px;
 	font-weight:400;
 	margin:0!important;
 }
-.body .content-reglol-single div div, .body .content-reg div div {
+.body .content-reglol div div, .body .content-reg div div {
 	background:none repeat scroll 0 0 transparent;
 	float:left;
 	margin:0;
 	padding:0 31px 0 0;
 	width:473px;
 }
-.body .content-reglol-single div div ul li p, .body .content-reg div div p {
+.body .content-reglol div div ul li p, .body .content-reg div div p {
 	margin:14px 50px 0 0;
 	margin-left:10px;
 	color:#5C3820;
@@ -1336,7 +1328,7 @@ p a:hover {
 	font-size:15px;
 	line-height:27px;
 }
-.body .content-reglol-single div div ul li div.section div form input, .body .content-reg div div form input {
+.body .content-reglol div div ul li div.section div form input, .body .content-reg div div form input {
 	background-color:#eee;
 	border:1px solid #b9b9b9;
 	color:#939393;
@@ -1350,7 +1342,7 @@ p a:hover {
 	padding:4px 10px;
 	width:451px;
 }
-.body .content-reglol-single div div ul li div.section div form input#submit, .body .content-reg div div form input.submit {
+.body .content-reglol div div ul li div.section div form input#submit, .body .content-reg div div form input.submit {
 	background-color:#dd8514;
 	border:0;
 	color:#fff;
@@ -1362,7 +1354,7 @@ p a:hover {
 	margin:0;
 	width:119px;
 }
-.body .content-reglol-single div div ul li div.section div form input#submit:hover, .body .content-reg div div form input.submit:hover {
+.body .content-reglol div div ul li div.section div form input#submit:hover, .body .content-reg div div form input.submit:hover {
 	background-color:#e0912c;
 }
 /*------------------------- Footer ------------------------*/
